@@ -9,7 +9,7 @@ module.exports = [
             "https://images.unsplash.com/photo-1594753154778-273013529793?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
             "https://images.unsplash.com/photo-1602571833724-984f81111ce1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
         ],
-        instruction:"Venha como se sentir a vontade e traga muito amor e paciência para dar.",
+        instructions:"Venha como se sentir a vontade e traga muito amor e paciência para dar.",
         opening_hours:"Horário de visitas Das 18h até 8h",
         open_on_weekends:"1"
     },
@@ -24,7 +24,7 @@ module.exports = [
             "https://images.unsplash.com/photo-1594753154778-273013529793?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
             "https://images.unsplash.com/photo-1602571833724-984f81111ce1?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9"
         ],
-        instruction:"Venha como se sentir a vontade e traga muito amor e paciência para dar.",
+        instructions:"Venha como se sentir a vontade e traga muito amor e paciência para dar.",
         opening_hours:"Horário de visitas Das 18h até 8h",
         open_on_weekends:"0"
         
