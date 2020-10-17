@@ -71,7 +71,9 @@ function deletefield(event){
 function toggleSelect(event){
     //retira a classe  .active (dos bottons)
     document.querySelectorAll('.button-select button')
-    .forEach(button => button.classList.remove('active'))
+    .forEach((button) => {
+        button.classList.remove('active')
+    })
 
     //colocar a calss .active nesse botao clicado
     const button = event.currentTarget
@@ -84,4 +86,22 @@ function toggleSelect(event){
     input.value = button.dataset.value
 
     //verificar se sim ou nao
+}
+
+function validate(event){
+    //validar se lat e lng estao preenchidos
+    const mapLat = document.querySelector('[name=lat]').value
+    const mapLng = document.querySelector('[name=lng]').value
+    console.log(maplat);
+    console.log(mapLng);
+
+    if(mapLat == "" || mapLng == ""){
+        event.preventDefault()
+        alert('Selecione um ponto no mapa')
+        return
+    }
+        
+    
+    
+    
 }

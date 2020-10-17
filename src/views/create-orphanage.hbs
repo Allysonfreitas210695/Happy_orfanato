@@ -48,7 +48,7 @@
       </aside>
 
       <main class="animate-appear width-sidebar">
-        <form action="">
+        <form action="save-orphanage" method="post" onsubmit="validate(event)">
           <fieldset>
             <legend>Dados</legend>
 
@@ -86,7 +86,7 @@
               <div class="images-upload" id="images">
 
                 <div class="new-upload">
-                <input name="images" placeholder="Cole o link da foto aqui" required/>
+                <input name="images" placeholder="Cole o link da foto aqui" required type="url"/>
 
                 <span onclick="deletefield(event)">
                   <img src="/images/remove-file.svg" alt="remove">
@@ -120,7 +120,7 @@
 
             <div class="input-block">
               <label for="open_on_weekends">Atende fim de semana?</label>
-              <input type="hidden" id="open_on_weekends" name="open_on_week" value="1" required>
+              <input type="hidden" id="open_on_weekends" name="open_on_weekends" value="1" required>
 
               <div class="button-select">
                 <button data-value="1"
